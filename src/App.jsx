@@ -44,8 +44,8 @@ function App() {
       <div>
         <Bio />
           <div className="mt-6 flex gap-6">
-            <StatCard followers={followers} />
-            <StatCard rate={rate} />
+            <StatCard value={followers} label="Followers" />
+            <StatCard value={rate} label="PHP per hour" />
           </div>
         </div>
 
